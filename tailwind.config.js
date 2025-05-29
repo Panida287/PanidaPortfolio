@@ -17,8 +17,11 @@ export default {
         },
       },
       fontFamily: {
-        heading: ["Cormorant Garamond", "serif"],
-        body: ["Plus Jakarta Sans", "sans-serif"],
+        display: ['Bruno Ace', 'cursive'],
+        heading: ['Contrail One', 'cursive'],
+        body:    ['Inter', 'sans-serif'],
+        gothic:  ['DotGothic16', 'sans-serif'],
+        mono:    ['JetBrains Mono', 'monospace'],
       },
       colors: {
         primary: "#4A5A3E",           // Brand Primary
