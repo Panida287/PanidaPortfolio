@@ -6,10 +6,10 @@ export default function Header() {
 	const toggleMobileNav = () => setMobileNavOpen(open => !open);
 
 	const links = [
-		{ to: '/',        label: 'Home',      icon: 'fa-house-blank' },
-		{ to: '/projects',label: 'Projects',  icon: 'fa-rectangle-history' },
-		{ to: '/about',   label: 'About me',  icon: 'fa-user' },
-		{ to: '/contact', label: 'Contact',   icon: 'fa-comment' },
+		{ to: '/',        label: 'Home',      icon: 'fa-light fa-house-blank' },
+		{ to: '/projects',label: 'Projects',  icon: 'fa-light fa-folder-tree' },
+		{ to: '/about',   label: 'About me',  icon: 'fa-light fa-user' },
+		{ to: '/contact', label: 'Contact',   icon: 'fa-light fa-comment' },
 	];
 
 	return (
@@ -25,13 +25,13 @@ export default function Header() {
 			{/* Hamburger (mobile) */}
 			<button
 				onClick={toggleMobileNav}
-				className="hamburger-btn absolute right-4 text-white text-2xl md:hidden rounded-md px-2 py-1 hover:shadow-neon"
+				className="hamburger-btn absolute right-4 text-white text-2xl rounded-md px-2 py-1 sm:hidden hover:shadow-neon"
 			>
 				<i className="fa-light fa-bars" />
 			</button>
 
 			{/* Desktop nav */}
-			<nav className="hidden md:flex w-full items-center justify-center">
+			<nav className="hidden sm:flex w-full items-center justify-center">
 				<ul className="flex w-full justify-evenly items-center max-w-[50rem] text-white font-heading">
 					{links.map(link => (
 						<li key={link.to} className="text-center">
@@ -49,18 +49,18 @@ export default function Header() {
 
 			{/* Mobile dropdown */}
 			{mobileNavOpen && (
-				<nav className="mobile-nav text-white font-bigHeader font-thin text-xs p-4">
-					<ul className="bg-linear-gradient flex-col absolute right-4 top-20 px-4 py-4 rounded-lg transition-all duration-300 ease-in-out">
+				<nav className="absolute right-0 -top-4 w-full z-50 animate-slideDownFast">
+					<ul className="absolute backdrop-blur-2xl bg-white/10 flex-col  right-4 font-heading text-sm top-20 px-4 py-4 rounded-lg transition-all duration-300 ease-in-out">
 						{links.map(link => (
 							<li key={link.to}>
 								<NavLink
 									to={link.to}
 									end
 									className={({ isActive }) =>
-										`mobile-link${isActive ? ' active' : ''}`
+										`mobile-link w-full${isActive ? ' active' : ''}`
 									}
 								>
-									<i className={`fa-sharp fa-regular ${link.icon} pr-1`} />
+									<i className={`fa-sharp fa-regular ${link.icon} pr-3`} />
 									{link.label}
 								</NavLink>
 							</li>

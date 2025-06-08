@@ -39,10 +39,12 @@ html, body, #root {
 .link::before {
     content: "<";
     margin-right: 0.25rem;
+    color: #C62F94;
 }
 .link::after {
     content: "/>";
     margin-left: 0.25rem;
+    color: #C62F94;
 }
 .link:hover::before,
 .link:hover::after {
