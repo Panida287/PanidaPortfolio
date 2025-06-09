@@ -33,7 +33,10 @@ export default {
         black: '900',
       },
       boxShadow: {
-        neon: '0 0 0.5em var(--tw-color-neon)',
+        neon: '0 0 1em #14f7ff',
+      },
+      textShadow: {
+        neon: '0 0 0.2em, 0 0 0.3em #14f7ff',
       },
       colors: {
         neon: "#14f7ff",
