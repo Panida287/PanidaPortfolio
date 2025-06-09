@@ -31,12 +31,12 @@ export default function Introduction() {
                 Coder
               </span>
 						</h2>
-						<h3 className="font-header text-sm text-white xs:text-md">
+						<h3 className="font-heading text-sm text-white xs:text-md">
 							Communicate ideas with code and design.
 						</h3>
 
 						{/* INSERTED: intro from JSON */}
-						<p className="intro text-white font-paragraph text-xs font-thin indent-10 xs:text-sm">
+						<p className="intro text-white text-xs font-thin indent-10 xs:text-sm">
 							{intro}
 						</p>
 

@@ -1,4 +1,5 @@
 import Introduction from './components/Introduction.tsx';
+import FeaturedProjects from './components/FeaturedProjects.tsx';
 
 export default function App() {
 	return <div>
@@ -7,5 +8,6 @@ export default function App() {
 			<span className="text-white">Paethanom</span>
 		</h1>
 		<Introduction/>
+		<FeaturedProjects/>
 	</div>;
 }
