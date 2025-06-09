@@ -7,6 +7,8 @@ import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetailPage from './pages/ProjectDetailPage';
 import Layout from './Layout';
 import NotFoundPage from './pages/NotFoundPage';
+import AboutMePage from './pages/AboutMePage';
+import ContactPage from './pages/ContactPage';
 
 const router = createBrowserRouter([
 	{
@@ -27,11 +29,11 @@ const router = createBrowserRouter([
 			},
 			{
 				path: 'about',
-				element: <ProjectDetailPage />
+				element: <AboutMePage />
 			},
 			{
 				path: 'contact',
-				element: <ProjectDetailPage />
+				element: <ContactPage />
 			}
 		]
 	},
@@ -46,5 +48,3 @@ createRoot(document.getElementById('root')!).render(
 		<RouterProvider router={router} />
 	</StrictMode>
 );
-
-

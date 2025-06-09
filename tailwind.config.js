@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import textShadowPlugin from 'tailwindcss-textshadow';
+
 export default {
   content: [
     "./index.html",
@@ -23,29 +25,39 @@ export default {
         gothic:  ['DotGothic16', 'sans-serif'],
         mono:    ['JetBrains Mono', 'monospace'],
       },
+      fontWeight: {
+        thin: '200',
+        regular: '400',
+        medium: '500',
+        bold: '700',
+        black: '900',
+      },
+      boxShadow: {
+        neon: '0 0 1em #14f7ff',
+      },
+      textShadow: {
+        neon: '0 0 0.2em, 0 0 0.3em #14f7ff',
+      },
       colors: {
-        primary: "#4A5A3E",           // Brand Primary
-        secondary: "#F7F1E6",         // Brand Secondary
-        info: "#1F71BA",              // State - Info
-        success: "#27AE60",           // State - Success
-        background: "#DEECD7",        // State - Background
-        error: "#EB5757",             // State - Error
-        black: "#282828",             // Black
-        white: "#FFFFFF",            // White
+        neon: "#14f7ff",
+        pink: "#C62F94",
+        error: "#EB5757",
+        black: "#282828",
+        white: "#FFFFFF",
         gray: {
-          1: "#828282",              // Gray 1
-          2: "#BDBDBD",              // Gray 2
-          3: "#E0E0E0",              // Gray 3
+          1: "#828282",
+          2: "#BDBDBD",
+          3: "#E0E0E0",
         },
       }
     },
     screens: {
-      ph: "480px",
-      sm: "500px",
-      md: "800px",
+      xs: "550px",
+      sm: "700px",
+      md: "800x",
       lg: "900px",
       xl: "1200px",
     },
   },
-  plugins: [],
+  plugins: [textShadowPlugin],
 }
