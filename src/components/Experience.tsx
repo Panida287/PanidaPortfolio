@@ -1,5 +1,5 @@
 import { useState } from "react";
-import profile from "../../public/data/profile.json";
+import profile from "../data/profile.json";
 
 export default function Experience() {
 	const [open, setOpen] = useState(false);

@@ -13,11 +13,11 @@ interface ShuffleCarouselProps {
 	items: CarouselItem[];
 }
 
-export default function ShuffleCarousel({items}: ShuffleCarouselProps) {
+export default function ShuffleCarousel({ items }: ShuffleCarouselProps) {
 	const [order, setOrder] = useState<CarouselItem[]>([]);
 
 	useEffect(() => {
-		setOrder(items);
+		setOrder(items.slice(-3));
 	}, [items]);
 
 	const slidePrev = () => {
@@ -38,12 +38,12 @@ export default function ShuffleCarousel({items}: ShuffleCarouselProps) {
 		});
 	};
 
-	const visible = order.slice(0, 3);
+	// order already contains exactly 3 items
+	const visible = order;
 
 	return (
 		<>
-			<div
-				className="carousel-wrapper mb-4 w-full h-[470px] py-10 flex justify-center items-center overflow-x-hidden">
+			<div className="carousel-wrapper mb-4 w-full h-[470px] py-10 flex justify-center items-center overflow-x-hidden">
 				<ul className="carousel relative h-full w-full max-w-[800px] items-center">
 					{visible.map((p, i) => (
 						<li
@@ -56,9 +56,7 @@ export default function ShuffleCarousel({items}: ShuffleCarouselProps) {
 								className="w-80 h-60 object-cover rounded-lg mb-4 border border-white/50"
 							/>
 							<div className="flex items-center gap-2 mb-2">
-								<h3 className="font-heading text-white text-xl">
-									{p.title}
-								</h3>
+								<h3 className="font-heading text-white text-xl">{p.title}</h3>
 								<p className="text-pink font-heading">{p.year}</p>
 							</div>
 							<p className="text-white font-thin text-sm italic">{p.about}</p>

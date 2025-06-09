@@ -1,4 +1,4 @@
-import profile from "../../public/data/profile.json";
+import profile from "../data/profile.json";
 
 export default function Learning() {
 	return (

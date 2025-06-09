@@ -1,4 +1,4 @@
-import profile from "../../public/data/profile.json";
+import profile from "../data/profile.json";
 import { useState } from 'react';
 
 export default function Education() {

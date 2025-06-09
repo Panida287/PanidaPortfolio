@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import profile from '../../public/data/profile.json';
+import profile from '../data/profile.json';
 
 export default function Introduction() {
 	const { media, intro } = profile;

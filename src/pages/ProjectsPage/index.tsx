@@ -1,5 +1,5 @@
 import ProjectsList, { Project } from '../../components/ProjectsList';
-import rawProjects from '../../../public/data/projects.json';
+import rawProjects from '../../data/projects.json';
 
 export default function ProjectsPage() {
 	interface RawProject {

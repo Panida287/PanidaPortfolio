@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import profile from '../../public/data/profile.json';
+import profile from '../data/profile.json';
 
 export default function Skills() {
 	const containerRef = useRef<HTMLDivElement>(null);

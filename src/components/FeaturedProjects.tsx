@@ -1,5 +1,5 @@
 import ShuffleCarousel, { CarouselItem } from './ShuffleCarousel';
-import rawProjects from '../../public/data/projects.json';
+import rawProjects from '../data/projects.json';
 import { Link } from 'react-router-dom';
 
 export default function FeaturedProjects() {
