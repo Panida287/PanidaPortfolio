@@ -205,3 +205,8 @@ html {
     background-color: var(--neon);
     box-shadow: 0 0 2em #14f7ff;
 }
+
+@keyframes neon-pulse {
+    0%, 100% { box-shadow: 0 0 5px #14f7ff; }
+    50%      { box-shadow: 0 0 15px #14f7ff; }
+}
