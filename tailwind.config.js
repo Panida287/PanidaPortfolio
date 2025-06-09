@@ -43,6 +43,7 @@ export default {
         pink: "#C62F94",
         error: "#EB5757",
         black: "#282828",
+        background: "#1F183A",
         white: "#FFFFFF",
         gray: {
           1: "#828282",
