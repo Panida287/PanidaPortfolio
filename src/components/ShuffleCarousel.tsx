@@ -61,7 +61,7 @@ export default function ShuffleCarousel({items}: ShuffleCarouselProps) {
 								</h3>
 								<p className="text-pink font-heading">{p.year}</p>
 							</div>
-							<p className="text-white font-thin text-sm">{p.about}</p>
+							<p className="text-white font-thin text-sm italic">{p.about}</p>
 							<div>
 								<a
 									href={p.link}

@@ -35,34 +35,37 @@ const ProjectsList: React.FC<ProjectsListProps> = ({projects}) => {
 									alt={proj.title}
 								/>
 							</div>
-							<div className="project-info w-full flex flex-col gap-5">
-								<h3 className="project-title font-header text-center text-xl mt-4 xl:mt-0">
+							<div className="project-info w-full max-w-3xl mx-auto flex flex-col gap-5">
+								<h3 className="project-title font-heading text-center text-xl mt-4 xl:mt-0">
 									{proj.title}
 								</h3>
-								{/* render the short about tagline */}
-								<p className="project-about font-paragraph italic text-sm text-gray-300">
+								<p className="project-about italic text-sm text-gray-300">
 									{proj.about}
 								</p>
-								{/* render description which contains HTML */}
 								<div
-									className="project-description font-paragraph indent-10 text-sm leading-relaxed space-y-4"
+									className="project-description indent-10 text-sm leading-relaxed space-y-4"
 									dangerouslySetInnerHTML={{__html: proj.description}}
 								/>
-								<div className="project-tools flex flex-col gap-2">
-									<p className="text-sm font-bold">Tools used in this project:</p>
-									<div className="tools flex justify-evenly items-center gap-4 w-full rounded-md p-4">
+								<div
+									className="project-tools flex flex-col gap-2 w-30rem border border-neon/20 mx-auto rounded-lg p-4">
+									<p className="text-sm font-bold text-center">Tools used in this project:</p>
+									<div
+										className="tools flex flex-wrap justify-evenly items-center gap-4 w-full rounded-md p-4">
 										{proj.tools.map((tool) => (
-											<img
-												key={tool.name}
-												src={tool.logo}
-												alt={tool.name}
-												title={tool.name}
-												className="h-6 w-6"
-											/>
+											<div key={tool.name} className="flex flex-col items-center gap-1">
+												<img
+													src={tool.logo}
+													alt={tool.name}
+													title={tool.name}
+													className="h-8 w-8"
+												/>
+												<span className="text-xs text-white">{tool.name}</span>
+											</div>
 										))}
 									</div>
 								</div>
-								<div className="btn-container flex items-center justify-evenly mb-3">
+
+								<div className="btn-container flex items-center justify-center gap-36 mb-3">
 									<a
 										href={proj.links.repository}
 										target="_blank"
@@ -80,7 +83,7 @@ const ProjectsList: React.FC<ProjectsListProps> = ({projects}) => {
 										Deployed Site
 									</a>
 								</div>
-							<span className="h-[1px] w-[80%] mx-auto rounded-full bg-neon/30 mt-10"></span>
+								<span className="h-[1px] w-[80%] mx-auto rounded-full bg-neon/30 mt-10"></span>
 							</div>
 						</li>
 					))}

@@ -19,13 +19,13 @@ export default function Footer() {
 			</div>
 
 			<div className="social-media text-white font-paragraph text-3xl flex gap-5 my-5 justify-center items-center">
-				<a href="#" target="_blank" rel="noopener noreferrer" className="social-media-icon linkedIn">
+				<a href="https://www.linkedin.com/in/panida-paethanom-8a6317239/" target="_blank" rel="noopener noreferrer" className="social-media-icon linkedIn">
 					<i className="fab fa-linkedin transition-transform ease-in-out duration-300 hover:scale-125" />
 				</a>
-				<a href="#" target="_blank" rel="noopener noreferrer" className="social-media-icon github">
+				<a href="https://github.com/Panida287" target="_blank" rel="noopener noreferrer" className="social-media-icon github">
 					<i className="fab fa-github transition-transform ease-in-out duration-300 hover:scale-125" />
 				</a>
-				<a href="#" target="_blank" rel="noopener noreferrer" className="social-media-icon instagram">
+				<a href="https://www.instagram.com/chef_shots?igsh=MTkyNjJhYWUxcHhybg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="social-media-icon instagram">
 					<i className="fab fa-instagram transition-transform ease-in-out duration-300 hover:scale-125" />
 				</a>
 			</div>

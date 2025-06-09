@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import ProjectsList, { Project } from '../../components/ProjectsList';
 import rawProjects from '../../../public/data/projects.json';
 
@@ -29,15 +28,6 @@ export default function ProjectsPage() {
 
 	return (
 		<>
-      <span className="back-btn-container w-full flex items-center justify-start p-4">
-        <Link
-	        to="/"
-	        className="button absolute top-8 text-white text-sm p-2"
-        >
-          <i className="fa-solid fa-caret-left pr-2" />
-          Back
-        </Link>
-      </span>
 			<h1 className="w-full mb-5 flex justify-center items-center font-mono text-primary text-2xl font-bold">
 				<span className="pr-2 text-pink">My</span>
 				<span className="text-white">Projects</span>
