@@ -193,3 +193,15 @@ html {
     color: #444;
     scale: 0.8;
 }
+
+.education-card:before,
+.experience-card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 3px;
+    height: 111%;
+    background-color: var(--neon);
+    box-shadow: 0 0 2em #14f7ff;
+}
