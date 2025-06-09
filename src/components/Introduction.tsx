@@ -8,7 +8,7 @@ export default function Introduction() {
 		<section className="introduction">
 			<h2 className="sr-only">Introduction</h2>
 			<div
-				className="introduction-container flex flex-col items-center bg-card/20 my-3 h-fit lg:flex-row-reverse">
+				className="flex flex-col items-center bg-card/20 my-3 h-fit lg:flex-row-reverse">
 				<img
 					src={media.imageUrl}
 					alt={media.alt}

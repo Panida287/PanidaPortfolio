@@ -36,7 +36,7 @@ export default function Header() {
 	];
 
 	return (
-		<header className="z-10 backdrop-blur-lg w-[calc(100%-2rem)] mx-auto rounded-b-lg h-20 flex items-center justify-between relative">
+		<header className="z-10 backdrop-blur-lg w-[calc(100%-2rem)] max-w-5xl mx-auto rounded-b-lg h-20 flex items-center justify-between relative">
 			<img
 				src="/assets/images/panida-8bit.png"
 				height={100}

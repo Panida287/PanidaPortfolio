@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
 	return (
-		<footer className="mt-36 w-[calc(100%-2rem)] mx-auto flex flex-col justify-center items-center border border-neon/20 rounded-xl p-4">
+		<footer className="mt-36 w-[calc(100%-2rem)] max-w-5xl mx-auto flex flex-col justify-center items-center border border-neon/20 rounded-xl p-4">
 			<h2 className="font-header w-full text-xl flex justify-center items-center text-white">
 				Have an idea in mind?
 			</h2>
