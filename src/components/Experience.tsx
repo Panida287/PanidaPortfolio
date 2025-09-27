@@ -47,7 +47,7 @@ export default function Experience() {
 									{exp.year}
 								</h3>
 								<div
-									className="experience-details text-sm font-regular leading-relaxed indent-5"
+									className="experience-details text-sm font-regular leading-relaxed"
 									dangerouslySetInnerHTML={{ __html: exp.details }}
 								/>
 							</div>

@@ -1,7 +1,7 @@
 {
   "name": "Panida Paethanom",
-  "intro": "Frontend dev student with a passion for UX/UI and clean, responsive design. Full-stack in progress. I thrive on solving challenges, learning new tools, and bringing creative ideas to life. From chef to coder, always learning!",
-  "about": "I am a final-year Front-End Development student at Noroff School of Technology and Digital Media. After a 10-year career as a chef, working in Michelin-starred restaurants, I decided to pursue my passion for programming and UX/UI design. I love turning ideas into functional, beautiful solutions and believe there’s great potential to digitalize many aspects of the food and kitchen world. Photography is my hobby—a creative skill that complements and enhances my programming journey.",
+  "intro": "Backend student with a frontend background, passionate about UX/UI, clean responsive design, and full-stack development. I thrive on solving challenges, learning new tools, and bringing creative ideas to life. From chef to coder, always learning!",
+  "about": "I am a Backend Development student at Gokstad Akademiet, with a completed Front-End Development diploma from Noroff School of Technology and Digital Media. After a 10-year career as a chef, working in Michelin-starred restaurants, I transitioned into programming and UX/UI design. I love turning ideas into functional, beautiful solutions and believe there’s great potential to digitalize many aspects of the food and kitchen world. Photography is my hobby—a creative skill that complements and enhances my programming journey.",
   "skills": [
     {
       "skill": "HTML",
@@ -23,13 +23,19 @@
     },
     {
       "skill": "JavaScript",
-      "percentage": 60,
+      "percentage": 70,
       "logo": "/assets/logos/js.png",
       "alt": "logo of JavaScript"
     },
     {
+      "skill": "TypeScript",
+      "percentage": 65,
+      "logo": "/assets/logos/typescript.png",
+      "alt": "logo of TypeScript"
+    },
+    {
       "skill": "Node.js",
-      "percentage": 50,
+      "percentage": 60,
       "logo": "/assets/logos/nodeJs.png",
       "alt": "logo of Node.js"
     },
@@ -38,23 +44,32 @@
       "percentage": 70,
       "logo": "/assets/logos/figma.png",
       "alt": "logo of Figma"
+    },
+    {
+      "skill": "Python (currently learning)",
+      "percentage": 30,
+      "logo": "/assets/logos/python.png",
+      "alt": "logo of Python"
+    },
+    {
+      "skill": "SQL (currently learning",
+      "percentage": 40,
+      "logo": "/assets/logos/sql.png",
+      "alt": "logo of SQL"
     }
   ],
   "learning": [
     {
-      "skill": "React",
-      "logo": "/assets/logos/react.png",
-      "alt": "logo of React"
+      "skill": "Python",
+      "percentage": 30,
+      "logo": "/assets/logos/python.png",
+      "alt": "logo of Python"
     },
     {
-      "skill": "Vue.js",
-      "logo": "/assets/logos/vueJs.png",
-      "alt": "logo of Vue.js"
-    },
-    {
-      "skill": "Angular",
-      "logo": "/assets/logos/angular.png",
-      "alt": "logo of Angular"
+      "skill": "SQL",
+      "percentage": 40,
+      "logo": "/assets/logos/sql.png",
+      "alt": "logo of SQL"
     }
   ],
   "media": {
@@ -70,38 +85,46 @@
   },
   "education": [
     {
-      "year": "2023 - current",
-      "details": "<p><strong>Front-end developer - Vocational degree</strong></p><br><p><i>Noroff School of Technology and Digital Media, Oslo Norway</i></p><br><p>Gained expertise in HTML, CSS, JavaScript, React, and API integration through hands-on projects, focusing on creating responsive, accessible, and user-friendly web solutions.</p>"
+      "year": "2025 - 2027",
+      "details": "<p><strong>Diploma in Backend Development</strong></p><p><i>Gokstad Akademiet, Oslo Norway</i></p><br><p>Currently studying backend programming with a focus on full-stack development. Learning Python, Node.js, SQL, MongoDB, and RESTful API development. Building practical projects that integrate front-end and back-end systems.</p>"
     },
     {
-      "year": "2019",
-      "details": "<p><strong>Culinary Arts - Hospitality Access Program</strong></p><br><p><i>Dusit Thani College, Bangkok Thailand</i></p><br><p>Trained in Western culinary techniques, including food preparation, plating, and kitchen management, with a strong focus on professional hospitality standards.</p>"
+      "year": "2023 - 2025",
+      "details": "<p><strong>Diploma in Frontend Development</strong></p><p><i>Noroff School of Technology and Digital Media, Oslo Norway</i></p><br><p>Completed front-end programming program, focusing on HTML, CSS, JavaScript, and React. Built multiple web projects demonstrating responsive, user-friendly design and API integration. Graduated with top grades.</p>"
     },
     {
-      "year": "2004 - 2007",
-      "details": "<p><strong>Computer Program- Vocational degree</strong></p><br><p><i>Thai Business Administration College, Bangkok Thailand</i></p><br><p>Studied Pascal programming, basic website development, and video editing, focusing on foundational skills in software development and multimedia production.</p>"
+      "year": "2009",
+      "details": "<p><strong>Culinary Arts - Hospitality Access Program</strong></p><p><i>Dusit Thani College, Bangkok Thailand</i></p><br><p>Trained in Western culinary techniques, including food preparation, plating, and kitchen management, with a strong focus on professional hospitality standards.</p>"
+    },
+    {
+      "year": "2002",
+      "details": "<p><strong>Vocational Certificate in Business Computer</strong></p><p><i>Thai Business Administration Technological College, Bangkok Thailand</i></p><br><p>Focused on business computing, applied mathematics, and programming fundamentals. Studied Pascal, basic web development, and video editing.</p>"
     }
   ],
   "experiences": [
     {
-      "year": "August 2022 - April 2023",
-      "details": "<p><strong>Chef</strong></p><br><p><i>Fursetgruppen, Oslo Norway</i></p><br><p>Creating traditional Japanese menu, recipes, food cost, training staff, as well as taking food photography and creating menu graphic and managing social media.</p>"
+      "year": "April 2020 – Present",
+      "details": "<p><strong>Owner & Catering Manager</strong></p><p><i>Kværnerbyen Thaimat, Oslo Norway</i></p><br><p>Founded and managed a small catering business, taking orders via Facebook and delivering meals locally. Currently developing a website to expand online sales. Maintained operations while pausing active service to focus on studies.</p>"
     },
     {
-      "year": "Oct 2021 - August 2022",
-      "details": "<p><strong>Founder - Food Catering Service</strong></p><br><p><i>Kværnerbyen Thaimat, Oslo Norway</i></p><br><p>Started a small food delivery business while adapting to life in Norway after relocating from Thailand. Took orders via Facebook and personally delivered them on foot, providing authentic Thai cuisine locally.</p>"
+      "year": "August 2022 – April 2023",
+      "details": "<p><strong>Chef</strong></p><p><i>Fursetgruppen, Oslo Norway</i></p><br><p>Created traditional Japanese menus and recipes. Managed food costs, trained staff, and contributed to menu photography and social media updates.</p>"
     },
     {
-      "year": "2015 - 2020",
-      "details": "<p><strong>Founder - Burger and Craft Beer Restaurant</strong></p><br><p><i>Bad Burger, Bangkok Thailand</i></p><br><p>Opened a burger and craft beer joint in Bangkok, recognized as one of the top 10 burger spots in the city, delivering quality food, unique vibe, and a vibrant dining experience.</p>"
+      "year": "October 2021 – August 2022",
+      "details": "<p><strong>Sous Chef</strong></p><p><i>Koie Ramen, Oslo Norway</i></p><br><p>Assisted in daily kitchen operations, prepared ramen dishes, ensured consistency, and supported training of junior staff.</p>"
     },
     {
-      "year": "2014 - 2015",
-      "details": "<p><strong>Chef - Michelin-starred Restaurant</strong></p><br><p><i>L’Atelier de Joel Robuchon, Bangkok Thailand</i></p><br><p>Specialized in preparing high-quality cold dishes, salads, and appetizers, maintaining the precision and excellence synonymous with a Michelin-starred restaurant.</p>"
+      "year": "January 2015 – May 2020",
+      "details": "<p><strong>Founder / Chef</strong></p><p><i>Bad Burger, Bangkok Thailand</i></p><br><p>Opened and ran a burger and craft beer restaurant in Bangkok. Managed daily operations, staff, and marketing. Recognized as one of Bangkok’s top 10 burger restaurants and featured in Vice magazine.</p>"
     },
     {
-      "year": "2012 - 2014",
-      "details": "<p><strong>Chef - 5 Star Hotel</strong></p><br><p><i>Grand Hyatt Erawan, Bangkok Thailand</i></p><br><p>Specialized in classical European cuisine, crafting elegant dishes with precision and creativity while upholding the luxury standards of a world-renowned five-star hotel.</p>"
+      "year": "2014 – 2015",
+      "details": "<p><strong>Chef</strong></p><p><i>L’Atelier de Joel Robuchon, Bangkok Thailand</i></p><br><p>Prepared high-quality cold dishes, salads, and appetizers for a Michelin-starred restaurant, ensuring precision and consistency.</p>"
+    },
+    {
+      "year": "2012 – 2014",
+      "details": "<p><strong>Chef</strong></p><p><i>Grand Hyatt Erawan, Bangkok Thailand</i></p><br><p>Specialized in classical European cuisine at a five-star hotel, maintaining luxury standards and delivering fine dining experiences.</p>"
     }
   ]
 }
