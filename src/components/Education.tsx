@@ -47,7 +47,7 @@ export default function Education() {
 									{ed.year}
 								</h3>
 								<div
-									className="education-details text-sm font-regular leading-relaxed indent-5"
+									className="education-details text-sm font-regular leading-relaxed"
 									dangerouslySetInnerHTML={{ __html: ed.details }}
 								/>
 							</div>
