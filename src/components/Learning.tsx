@@ -13,20 +13,17 @@ export default function Learning() {
 						What I am learning at school and in personal time
 					</p>
 				</div>
-				<div className="learning-container w-[70%] flex justify-between gap-4">
+
+				<div className="learning-container w-[80%] grid grid-cols-2 gap-6 mt-6">
 					{profile.learning.map((item, idx) => (
 						<div
 							key={idx}
-							className="learning-card h-fit flex flex-col justify-center items-center bg-card/20 rounded-lg md:w-36"
+							className="learning-card h-fit flex flex-col justify-center items-start bg-card/20 rounded-lg p-4"
 						>
-							<img
-								src={item.logo}
-								alt={item.alt}
-								className="learning-logo mt-8 w-1/2 object-cover"
-							/>
-							<h4 className="learning-name font-bigHeader text-sm my-5 text-center md:text-xl">
+							<h4 className="learning-name font-regular text-sm mb-2 md:text-lg">
 								{item.skill}
 							</h4>
+							<p className="text-sm text-gray-300">{item.description}</p>
 						</div>
 					))}
 				</div>

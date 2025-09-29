@@ -17,8 +17,8 @@ export default function AboutMePage() {
 				<Skills />
 				<Learning />
 				<section className="education-experience relative h-auto flex flex-col lg:flex-row lg:w-full lg:justify-evenly">
-					<Education />
 					<Experience />
+					<Education />
 				</section>
 
 				<BackToTopButton />

@@ -37,14 +37,14 @@ export default function Header() {
 
 	return (
 		<header
-			className="fixed w-full z-10 backdrop-blur-lg flex items-center rounded-b-lg h-20">
+			className="fixed w-full z-50 backdrop-blur-lg flex items-center rounded-b-lg h-20">
 			<div className="flex w-[calc(100%-2rem)] items-center justify-between max-w-5xl mx-auto">
 				<img
 					src="/assets/images/panida-8bit.png"
 					height={100}
 					width={100}
 					alt="Panida 8 bit character"
-					className="w-16 h-16 p-1"
+					className="w-16 h-16 p-1 -translate-x-4"
 				/>
 
 				{/* Hamburger (mobile) */}

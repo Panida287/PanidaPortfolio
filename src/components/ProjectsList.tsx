@@ -4,6 +4,7 @@ export interface Project {
 	id: number;
 	title: string;
 	about: string;
+	year: string;
 	description: string;
 	imageUrl: string;
 	tools: { name: string; logo: string }[];
@@ -39,6 +40,9 @@ const ProjectsList: React.FC<ProjectsListProps> = ({projects}) => {
 								<h3 className="project-title font-heading text-center text-xl mt-4 xl:mt-0">
 									{proj.title}
 								</h3>
+								<p className="project-year font-heading text-gray-300 text-center">
+									{proj.year}
+								</p>
 								<p className="project-about italic text-sm text-gray-300">
 									{proj.about}
 								</p>
@@ -65,7 +69,7 @@ const ProjectsList: React.FC<ProjectsListProps> = ({projects}) => {
 									</div>
 								</div>
 
-								<div className="btn-container flex items-center justify-center gap-36 mb-3">
+								<div className="btn-container flex items-center gap-10 mb-3">
 									<a
 										href={proj.links.repository}
 										target="_blank"
