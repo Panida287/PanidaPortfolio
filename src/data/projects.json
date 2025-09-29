@@ -1,143 +1,26 @@
 [
   {
-    "id": 1,
-    "title": "Square Eyes",
-    "year": "2023",
-    "description": "<p>This was my first design assignment which I used throughout my HTML, CSS, and Javascript assignments with a little bit of adjustments due to the limitation of my skill at the time. But I want to keep improving it.</p><p>SquareEyes is a video streaming website that I chose out of 3 choices, which were:</p><ul><li>- SquareEyes - Video Streaming service</li><li>- GameHub - Online Game store</li><li>- RainyDay - Clothing store</li></ul><br><p>I chose SquareEyes because I feel like it is the service I use the most and it is the most challenging to design in my opinion. This project includes <strong>HTML</strong>, <strong>CSS</strong>, and working with <strong>API</strong> with <strong>JavaScript</strong> as well as basic <strong>JavaScript</strong> functions.</p>",
-    "about": "Video streaming website",
+    "id": 5,
+    "title": "StayFindr",
+    "about": "Responsive front-end accommodation booking",
+    "year": "2025",
+    "description": "<p>StayFindr is a modern, responsive single-page React/TypeScript application built against the Noroff Holidaze API v2. It lets travelers search, filter, and book unique stays, and gives venue managers a full dashboard to manage listings and bookings in real-time.</p><h4>Key features:</h4><ul><li>- Public browsing with search by city/name, filtering by amenities &amp; availability</li><li>- Secure login/register (requires <code>@stud.noroff.no</code> email)</li><li>- Customer booking flow with calendar picker, guest count, and booking history</li><li>- Venue manager dashboard: CRUD venues, upload media, view/manage bookings</li><li>- Account management: profile, avatar, and custom bio</li></ul>",
     "tools": [
-      {
-        "name": "Figma",
-        "logo": "/assets/logos/figma.png"
-      },
-      {
-        "name": "HTML",
-        "logo": "/assets/logos/html.png"
-      },
-      {
-        "name": "CSS",
-        "logo": "/assets/logos/css.png"
-      },
-      {
-        "name": "JavaScript",
-        "logo": "/assets/logos/js.png"
-      }
+      { "name": "Figma", "logo": "/assets/logos/figma.png" },
+      { "name": "HTML", "logo": "/assets/logos/html.png" },
+      { "name": "CSS", "logo": "/assets/logos/css.png" },
+      { "name": "Node.js", "logo": "/assets/logos/nodeJs.png", "alt": "Node.js logo" },
+      { "name": "React", "logo": "/assets/logos/react.png" },
+      { "name": "Vite", "logo": "/assets/logos/vite.svg" },
+      { "name": "TypeScript", "logo": "/assets/logos/typescript.png" },
+      { "name": "Tailwind CSS", "logo": "/assets/logos/tailwind.png" }
     ],
     "media": [
-      {
-        "image": "/assets/images/squareEyes/squareEyesShowCase.png",
-        "alt": "Square eyes show case image"
-      },
-      {
-        "image": "/assets/images/squareEyes/homepage.png",
-        "alt": "image of homepage"
-      },
-      {
-        "image": "/assets/images/squareEyes/browse.png",
-        "alt": "image of video browsing page"
-      },
-      {
-        "image": "/assets/images/squareEyes/checkout.png",
-        "alt": "image of product checkout page"
-      }
+      { "image": "/assets/images/StayFindr/showCase.png", "alt": "StayFindr homepage" }
     ],
     "links": {
-      "repository": "https://github.com/Panida287/CA",
-      "deployed": "https://panida-js-ca.netlify.app/"
-    }
-  },
-  {
-    "id": 2,
-    "title": "Matter Museum",
-    "about": "Science museum website",
-    "year": "2023",
-    "description": "<p>This project was part of my semester project, where we were tasked to create a science museum website that appeals to both children and their parents.</p><p>Matter Museum was the first project I collaborated on with two of my classmates:</p><ul><li>- Helene Flått</li><li>- Aksel Oldeide</li></ul><p>We came up with the idea of a museum showcasing the states of matter: <strong>solid</strong>, <strong>liquid</strong>,<strong>gas</strong>, and <strong>plasma</strong>. The main focus was to make the website both colorful and informative to cater to kids as well as their parents.</p><br><p>Through this project, we also learned how to collaborate effectively using branches and managing merge conflicts. No JavaScript was used in this project, and it was purely created with HTML and CSS.</p>",
-    "tools": [
-      {
-        "name": "Figma",
-        "logo": "/assets/logos/figma.png"
-      },
-      {
-        "name": "HTML",
-        "logo": "/assets/logos/html.png"
-      },
-      {
-        "name": "CSS",
-        "logo": "/assets/logos/css.png"
-      }
-    ],
-    "media": [
-      {
-        "image": "/assets/images/scienceMuseum/showCase.png",
-        "alt": "Show case images of the website"
-      },
-      {
-        "image": "/assets/images/scienceMuseum/homepage.png",
-        "alt": "image of homepage"
-      },
-      {
-        "image": "/assets/images/scienceMuseum/exhibitions.png",
-        "alt": "image of exhibitions browsing page"
-      },
-      {
-        "image": "/assets/images/scienceMuseum/ticket.png",
-        "alt": "image of buying ticket page"
-      }
-    ],
-    "links": {
-      "repository": "https://github.com/Panida287/semester-project",
-      "deployed": "https://infernal-triad.netlify.app/"
-    }
-  },
-  {
-    "id": 3,
-    "title": "Frame Photography",
-    "about": "Photography service and gallery",
-    "year": "2024",
-    "description": "<p>This project was part of Agency 1. We were free to choose any project we want. We came up with photography service because I happen to have some contents we can use for it and I might end up using this website in future for my side gig.</p><p>I was the project manager in this project as well as designer, could say that I am also a client because I get to dictate how the website should be like.</p><p>Collaborators:</p><ul><li>- Helene Flått</li><li>- Berken Ates</li><li>- Patrick Røthe</li><li>- Kenneth Sheikh</li></ul><br><p>Since this was more people on the team this time, it was more challenging to follow up and meet up to share updates and working with different coding styles. But it was fun and I learned a lot to work as a team and be understanding.</p>",
-    "tools": [
-      {
-        "name": "Figma",
-        "logo": "/assets/logos/figma.png"
-      },
-      {
-        "name": "HTML",
-        "logo": "/assets/logos/html.png"
-      },
-      {
-        "name": "CSS",
-        "logo": "/assets/logos/css.png"
-      },
-      {
-        "name": "JavaScript",
-        "logo": "/assets/logos/js.png"
-      }
-    ],
-    "media": [
-      {
-        "image": "/assets/images/frame/showCase.png",
-        "alt": "Show case images of the website"
-      },
-      {
-        "image": "/assets/images/frame/homepage.png",
-        "alt": "image of homepage"
-      },
-      {
-        "image": "/assets/images/frame/gallery.png",
-        "alt": "image of gallery page"
-      },
-      {
-        "image": "/assets/images/frame/booking.png",
-        "alt": "image of booking page"
-      },
-      {
-        "image": "/assets/images/frame/review.png",
-        "alt": "image of review page"
-      }
-    ],
-    "links": {
-      "repository": "https://github.com/Panida287/Agency1-frame",
-      "deployed": "https://framephotographyfed1.netlify.app/"
+      "repository": "https://github.com/Panida287/StayFindr",
+      "deployed": "https://stayfindr.netlify.app"
     }
   },
   {
@@ -147,62 +30,20 @@
     "year": "2024",
     "description": "<p>This was the first semester project of the second year study. To take the skills learned over the past three semesters and create an auction website and work with noroff API endpoint</p><h4>User Stories</h4><p>The client has specified the following requirements in the form of User Stories</p><ul><li>- A user with a stud.noroff.no email may register</li><li>- A registered user may login</li><li>- A registered user may logout</li><li>- A registered user may update their avatar</li><li>- A registered user may view their total credit</li><li>- A registered user may create a Listing with a title, deadline date, media gallery and description</li><li>- A registered user may add a Bid to another user’s Listing</li><li>- A registered user may view Bids made on a Listing</li><li>- An unregistered user may search through Listings</li></ul><br><p>I had fun with this project the most and learned so much more from it. This is probably my best project so far</p>",
     "tools": [
-      {
-        "name": "Figma",
-        "logo": "/assets/logos/figma.png",
-        "alt": "Figma logo"
-      },
-      {
-        "name": "HTML",
-        "logo": "/assets/logos/html.png",
-        "alt": "HTML logo"
-      },
-      {
-        "name": "CSS",
-        "logo": "/assets/logos/css.png",
-        "alt": "CSS logo"
-      },
-      {
-        "name": "Tailwind",
-        "logo": "/assets/logos/tailwind.png",
-        "alt": "Tailwind logo"
-      },
-      {
-        "name": "Vite",
-        "logo": "/assets/logos/vite.svg"
-      },
-      {
-        "name": "Node.js",
-        "logo": "/assets/logos/nodeJs.png",
-        "alt": "Node.js logo"
-      },
-      {
-        "name": "JavaScript",
-        "logo": "/assets/logos/js.png",
-        "alt": "Javascript logo"
-      }
+      { "name": "Figma", "logo": "/assets/logos/figma.png", "alt": "Figma logo" },
+      { "name": "HTML", "logo": "/assets/logos/html.png", "alt": "HTML logo" },
+      { "name": "CSS", "logo": "/assets/logos/css.png", "alt": "CSS logo" },
+      { "name": "Tailwind", "logo": "/assets/logos/tailwind.png", "alt": "Tailwind logo" },
+      { "name": "Vite", "logo": "/assets/logos/vite.svg" },
+      { "name": "Node.js", "logo": "/assets/logos/nodeJs.png", "alt": "Node.js logo" },
+      { "name": "JavaScript", "logo": "/assets/logos/js.png", "alt": "Javascript logo" }
     ],
     "media": [
-      {
-        "image": "/assets/images/auction/showCase.png",
-        "alt": "Show case images of the website"
-      },
-      {
-        "image": "/assets/images/auction/homepage.png",
-        "alt": "image of homepage"
-      },
-      {
-        "image": "/assets/images/auction/listings.png",
-        "alt": "image of listings page"
-      },
-      {
-        "image": "/assets/images/auction/single-listing.png",
-        "alt": "image of single listing page"
-      },
-      {
-        "image": "/assets/images/auction/profile.png",
-        "alt": "image of profile page"
-      }
+      { "image": "/assets/images/auction/showCase.png", "alt": "Show case images of the website" },
+      { "image": "/assets/images/auction/homepage.png", "alt": "image of homepage" },
+      { "image": "/assets/images/auction/listings.png", "alt": "image of listings page" },
+      { "image": "/assets/images/auction/single-listing.png", "alt": "image of single listing page" },
+      { "image": "/assets/images/auction/profile.png", "alt": "image of profile page" }
     ],
     "links": {
       "repository": "https://github.com/Panida287/FED2-SP-auction-house",
@@ -210,55 +51,72 @@
     }
   },
   {
-    "id": 5,
-    "title": "StayFindr",
-    "about": "Responsive front-end accommodation booking",
-    "year": "2025",
-    "description": "<p>StayFindr is a modern, responsive single-page React/TypeScript application built against the Noroff Holidaze API v2. It lets travelers search, filter, and book unique stays, and gives venue managers a full dashboard to manage listings and bookings in real-time.</p><h4>Key features:</h4><ul><li>- Public browsing with search by city/name, filtering by amenities &amp; availability</li><li>- Secure login/register (requires <code>@stud.noroff.no</code> email)</li><li>- Customer booking flow with calendar picker, guest count, and booking history</li><li>- Venue manager dashboard: CRUD venues, upload media, view/manage bookings</li><li>- Account management: profile, avatar, and custom bio</li></ul>",
+    "id": 3,
+    "title": "Frame Photography",
+    "about": "Photography service and gallery",
+    "year": "2024",
+    "description": "<p>This project was part of Agency 1. We were free to choose any project we want. We came up with photography service because I happen to have some contents we can use for it and I might end up using this website in future for my side gig.</p><p>I was the project manager in this project as well as designer, could say that I am also a client because I get to dictate how the website should be like.</p><p>Collaborators:</p><ul><li>- Helene Flått</li><li>- Berken Ates</li><li>- Patrick Røthe</li><li>- Kenneth Sheikh</li></ul><br><p>Since this was more people on the team this time, it was more challenging to follow up and meet up to share updates and working with different coding styles. But it was fun and I learned a lot to work as a team and be understanding.</p>",
     "tools": [
-      {
-        "name": "Figma",
-        "logo": "/assets/logos/figma.png"
-      },
-      {
-        "name": "HTML",
-        "logo": "/assets/logos/html.png"
-      },
-      {
-        "name": "CSS",
-        "logo": "/assets/logos/css.png"
-      },
-      {
-        "name": "Node.js",
-        "logo": "/assets/logos/nodeJs.png",
-        "alt": "Node.js logo"
-      },
-      {
-        "name": "React",
-        "logo": "/assets/logos/react.png"
-      },
-      {
-        "name": "Vite",
-        "logo": "/assets/logos/vite.svg"
-      },
-      {
-        "name": "TypeScript",
-        "logo": "/assets/logos/ts.png"
-      },
-      {
-        "name": "Tailwind CSS",
-        "logo": "/assets/logos/tailwind.png"
-      }
+      { "name": "Figma", "logo": "/assets/logos/figma.png" },
+      { "name": "HTML", "logo": "/assets/logos/html.png" },
+      { "name": "CSS", "logo": "/assets/logos/css.png" },
+      { "name": "JavaScript", "logo": "/assets/logos/js.png" }
     ],
     "media": [
-      {
-        "image": "/assets/images/StayFindr/showCase.png",
-        "alt": "StayFindr homepage"
-      }
+      { "image": "/assets/images/frame/showCase.png", "alt": "Show case images of the website" },
+      { "image": "/assets/images/frame/homepage.png", "alt": "image of homepage" },
+      { "image": "/assets/images/frame/gallery.png", "alt": "image of gallery page" },
+      { "image": "/assets/images/frame/booking.png", "alt": "image of booking page" },
+      { "image": "/assets/images/frame/review.png", "alt": "image of review page" }
     ],
     "links": {
-      "repository": "https://github.com/Panida287/StayFindr",
-      "deployed": "https://stayfindr.netlify.app"
+      "repository": "https://github.com/Panida287/Agency1-frame",
+      "deployed": "https://framephotographyfed1.netlify.app/"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Matter Museum",
+    "about": "Science museum website",
+    "year": "2023",
+    "description": "<p>This project was part of my semester project, where we were tasked to create a science museum website that appeals to both children and their parents.</p><p>Matter Museum was the first project I collaborated on with two of my classmates:</p><ul><li>- Helene Flått</li><li>- Aksel Oldeide</li></ul><p>We came up with the idea of a museum showcasing the states of matter: <strong>solid</strong>, <strong>liquid</strong>,<strong>gas</strong>, and <strong>plasma</strong>. The main focus was to make the website both colorful and informative to cater to kids as well as their parents.</p><br><p>Through this project, we also learned how to collaborate effectively using branches and managing merge conflicts. No JavaScript was used in this project, and it was purely created with HTML and CSS.</p>",
+    "tools": [
+      { "name": "Figma", "logo": "/assets/logos/figma.png" },
+      { "name": "HTML", "logo": "/assets/logos/html.png" },
+      { "name": "CSS", "logo": "/assets/logos/css.png" }
+    ],
+    "media": [
+      { "image": "/assets/images/scienceMuseum/showCase.png", "alt": "Show case images of the website" },
+      { "image": "/assets/images/scienceMuseum/homepage.png", "alt": "image of homepage" },
+      { "image": "/assets/images/scienceMuseum/exhibitions.png", "alt": "image of exhibitions browsing page" },
+      { "image": "/assets/images/scienceMuseum/ticket.png", "alt": "image of buying ticket page" }
+    ],
+    "links": {
+      "repository": "https://github.com/Panida287/semester-project",
+      "deployed": "https://infernal-triad.netlify.app/"
+    }
+  },
+  {
+    "id": 1,
+    "title": "Square Eyes",
+    "about": "Video streaming website",
+    "year": "2023",
+    "description": "<p>This was my first design assignment which I used throughout my HTML, CSS, and Javascript assignments with a little bit of adjustments due to the limitation of my skill at the time. But I want to keep improving it.</p><p>SquareEyes is a video streaming website that I chose out of 3 choices, which were:</p><ul><li>- SquareEyes - Video Streaming service</li><li>- GameHub - Online Game store</li><li>- RainyDay - Clothing store</li></ul><br><p>I chose SquareEyes because I feel like it is the service I use the most and it is the most challenging to design in my opinion. This project includes <strong>HTML</strong>, <strong>CSS</strong>, and working with <strong>API</strong> with <strong>JavaScript</strong> as well as basic <strong>JavaScript</strong> functions.</p>",
+    "tools": [
+      { "name": "Figma", "logo": "/assets/logos/figma.png" },
+      { "name": "HTML", "logo": "/assets/logos/html.png" },
+      { "name": "CSS", "logo": "/assets/logos/css.png" },
+      { "name": "JavaScript", "logo": "/assets/logos/js.png" }
+    ],
+    "media": [
+      { "image": "/assets/images/squareEyes/squareEyesShowCase.png", "alt": "Square eyes show case image" },
+      { "image": "/assets/images/squareEyes/homepage.png", "alt": "image of homepage" },
+      { "image": "/assets/images/squareEyes/browse.png", "alt": "image of video browsing page" },
+      { "image": "/assets/images/squareEyes/checkout.png", "alt": "image of product checkout page" }
+    ],
+    "links": {
+      "repository": "https://github.com/Panida287/CA",
+      "deployed": "https://panida-js-ca.netlify.app/"
     }
   }
 ]
