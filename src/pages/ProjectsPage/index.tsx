@@ -6,6 +6,7 @@ export default function ProjectsPage() {
 		id: number;
 		title: string;
 		about: string;
+		year: string;
 		description: string;
 		tools: { name: string; logo: string }[];
 		media: { image: string; alt: string }[];
@@ -20,6 +21,7 @@ export default function ProjectsPage() {
 		id:          p.id,
 		title:       p.title,
 		about:       p.about,
+		year:        p.year,
 		description: p.description,
 		imageUrl:    p.media[0].image,
 		tools:       p.tools,
