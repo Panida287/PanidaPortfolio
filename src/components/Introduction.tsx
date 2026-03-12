@@ -48,7 +48,7 @@ export default function Introduction() {
 								View my projects
 							</Link>
 							<a
-								href="/assets/files/CV-Panida-Paethanom.pdf"
+								href="/assets/files/CV-Panida-Finstad.pdf"
 								download
 								target="_blank"
 								className="button text-xs xs:text-sm md:text-md"
