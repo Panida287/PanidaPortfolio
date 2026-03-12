@@ -22,7 +22,7 @@ This project showcases my journey from chef to front-end developer, featuring:
 
 ## 🚀 Demo
 
-Live site: [panidapaethanom.com](https://panidapaethanom.com/)
+Live site: [panida.dev](https://panida.dev/)
 
 ---
 

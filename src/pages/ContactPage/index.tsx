@@ -14,7 +14,7 @@ export default function ContactPage() {
 					<p className="text-md">Drop me a message!</p>
 				</div>
 				<div className="text-whitetext-xl flex flex-col gap-1 my-5 justify-center items-end">
-					<a href="https://www.linkedin.com/in/panida-paethanom-8a6317239/" target="_blank" className="social-media-icon linkedIn">
+					<a href="https://www.linkedin.com/in/panida-finstad-8a6317239/" target="_blank" className="social-media-icon linkedIn">
 						<i className="fab fa-linkedin pr-[1px] text-2xl transition-transform ease-in-out duration-300 hover:scale-125"></i>
 					</a>
 					<a href="https://github.com/Panida287" target="_blank" className="social-media-icon github">
@@ -24,8 +24,8 @@ export default function ContactPage() {
 						<i className="fab fa-instagram pr-[1px] text-2xl transition-transform ease-in-out duration-300 hover:scale-125"></i>
 					</a>
 					<div>
-						<span className="text-primary -mr-[3px] text-sm">panida.paethanom</span>
-						<span className="text-sm">@gmail.com</span>
+						<span className="text-primary -mr-[3px] text-sm">contact</span>
+						<span className="text-sm">@panida.dev</span>
 					</div>
 				</div>
 			</section>
