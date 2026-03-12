@@ -53,7 +53,7 @@ export default function Introduction() {
 								target="_blank"
 								className="button text-xs xs:text-sm md:text-md"
 							>
-								Get my CV <i className="fa-regular fa-download" />
+								Get my CV <i className="fas fa-download" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>

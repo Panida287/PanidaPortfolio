@@ -13,7 +13,7 @@ export default function ContactPage() {
 					<h3 className="text-lg font-heading text-neon">Would love to hear from you</h3>
 					<p className="text-md">Drop me a message!</p>
 				</div>
-				<div className="text-whitetext-xl flex flex-col gap-1 my-5 justify-center items-end">
+				<div className="text-white text-xl flex flex-col gap-1 my-5 justify-center items-end">
 					<a href="https://www.linkedin.com/in/panida-finstad-8a6317239/" target="_blank" className="social-media-icon linkedIn">
 						<i className="fab fa-linkedin pr-[1px] text-2xl transition-transform ease-in-out duration-300 hover:scale-125"></i>
 					</a>

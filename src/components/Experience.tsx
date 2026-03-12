@@ -21,7 +21,7 @@ export default function Experience() {
 					aria-expanded={open}
 				>
 					<i
-						className={`fa-light fa-square-caret-${open ? "up" : "down"} text-2xl ml-1`}
+						className={`fas fa-square-caret-${open ? "up" : "down"} text-2xl ml-1`}
 					/>
 				</button>
 			</div>

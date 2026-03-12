@@ -30,7 +30,7 @@ export default function FeaturedProjects() {
             <Link to="/projects"
                   className="button mt-2">
             View more projects
-	            <i className="fa-duotone fa-regular fa-angle-right pl-4"></i>
+	            <i className="fas fa-angle-right pl-4" aria-hidden="true"></i>
             </Link>
         </span>
 		</section>
