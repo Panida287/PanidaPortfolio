@@ -53,7 +53,7 @@ export default function Header() {
 					onClick={toggleMobileNav}
 					className="hamburger-btn absolute right-4 text-white text-2xl rounded-md px-2 py-1 sm:hidden hover:shadow-neon"
 				>
-					<i className="fa-light fa-bars" />
+					<i className="fas fa-bars" />
 				</button>
 
 				{/* Desktop nav */}
@@ -89,7 +89,7 @@ export default function Header() {
 											`mobile-link w-full font-mono hover:bg-white hover:text-background${isActive ? ' active' : ''}`
 										}
 									>
-										<i className={`fa-sharp fa-regular ${link.icon} pr-3`} />
+										<i className={`fas ${link.icon} pr-3`} />
 										{link.label}
 									</NavLink>
 								</li>
